@@ -5,8 +5,8 @@ import asyncio
 # Define server parameters to run the calculator server 
 
 server_params = StdioServerParameters(
-    command = "python"  # The executabe to run the server 
-    args = ["calculator_server.py"] # the server script
+    command = "python",  # The executabe to run the server 
+    args    = ["calculator_server.py"] # the server script
 )
 
 async def run():
